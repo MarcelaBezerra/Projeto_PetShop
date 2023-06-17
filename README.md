@@ -8,8 +8,7 @@ Descreva aqui como instalar e configurar o projeto. Forneça comandos específic
 ## Estrutura de Pastas e Arquivos
 
 A pasta src contém os arquivos de código, relacionados ao HTML, CSS, JavaScript, Python e ao Banco de Dados do sistema. Já a pasta
-docs contém todos a documentação do projeto, os diagramas, historias de uso, regras de negócio, requisitos e todos os arquivos necessários 
-para o funcionamento e criação do sistema.
+docs contém todos a documentação do projeto, os diagramas, historias de uso, regras de negócio, requisitos e todos os arquivos necessários para o funcionamento e criação do sistema. A pasta tests armazena todos os testes realizados no sistema.
 
 ## Dependências e Requisitos
 
