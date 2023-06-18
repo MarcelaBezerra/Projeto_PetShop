@@ -18,7 +18,7 @@ class CadastroTestCase(TestCase):
             'CAD_SENHA': '12345'
         }
 
-    """def test_processa_cadastro_missing_fields(self):
+    def test_processa_cadastro_missing_fields(self):
         # Testar quando campos obrigatórios estão faltando
         # Ele verifica se a view redireciona para a URL correta com um parâmetro indicando
         # o erro e garante que nenhum cadastro seja salvo no banco de dados.
@@ -44,12 +44,12 @@ class CadastroTestCase(TestCase):
         response = processa_cadastro(request)
 
         self.assertEqual(response.status_code, 302)
-        self.assertEqual(response.url, '/cadastro/?status=4')"""
-def test_cadastro_render_template(self):
+        self.assertEqual(response.url, '/cadastro/?status=4')
+    def test_cadastro_render_template(self):
         response = self.client.get(reverse('cadastro'))
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, 'Cadastro.html')
     
-if __name__ == '__main__':
-    import unittest
-    unittest.main()
+    if __name__ == '__main__':
+        import unittest
+        unittest.main()
