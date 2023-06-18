@@ -1,9 +1,6 @@
 # Projeto_PetShop
 Projeto de um sistema de PetShop orientado pela professora Cynthia Pinheiro na disciplina de Engenharia de Software no semestre 2023.1. No Instituto Federal de Educação, Ciência e Tecnologia do Ceará, campus Tianguá.
 
-## Instruções de Instalação
-
-Descreva aqui como instalar e configurar o projeto. Forneça comandos específicos, requisitos de sistema e qualquer outra informação relevante para garantir que o projeto funcione corretamente.
 
 ## Estrutura de Pastas e Arquivos
 
